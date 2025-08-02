@@ -1,4 +1,4 @@
-# RISC-V Toolchain Setup & Uniqueness Test – VSD SoC Task
+# TASK1: RISC-V Toolchain Setup & Uniqueness Test – VSD SoC Task
 
 This repository contains all the steps I followed to set up the RISC-V GCC toolchain, spike, proxy kernel, and iverilog. It includes the final uniqueness test script to validate setup.
 
