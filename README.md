@@ -136,7 +136,7 @@ which pk
 
 ## 🔬 Uniqueness Test
 A simple C program was compiled using riscv64-unknown-elf-gcc and run using spike pk to validate the setup.
-Check the unique_test folder in this repo for source code compile command and output.
+Check the unique_test folder in this repo for source code, compile command and output.
 
 ---
 
