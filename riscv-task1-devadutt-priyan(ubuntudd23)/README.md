@@ -150,12 +150,12 @@ Check the unique_test folder in this repo for source code, compile command and o
 ---
 
 ## ✅ Status
- Toolchain installed
+- [x] Toolchain installed
 
- Paths configured
+- [x] Paths configured
 
- Spike and PK built and tested
+- [x] Spike and PK built and tested
 
- Optional Verilog installed
+- [x] Optional Verilog installed
 
- Unique test passed
+- [x] Unique test passed
