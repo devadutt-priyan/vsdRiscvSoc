@@ -102,3 +102,14 @@ Each program prints a header including:
 Screenshots of these outputs are included as:
 + <program>_output.png
 + <program>_main_asm.png
+
+ ---
+
+ ## ✅ Status Check
+
+- [x] Successfully compiled and ran all RISCV C programs with local toolchain and Spike.
+- [x] Generated unique proof headers with user, host, machine ID, and timestamps.
+- [x] Produced assembly (.s) and disassembly (.objdump) files for each program.
+- [x] Manually decoded and documented several RISC-V integer instructions.
+- [x] Verified all outputs and proofs are reproducible on the configured environment.
+
