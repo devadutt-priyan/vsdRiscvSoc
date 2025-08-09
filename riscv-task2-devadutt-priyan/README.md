@@ -1,6 +1,6 @@
 # 🚀 RISCV Task 2: Prove Your Local RISCV Setup
 
-Welcome to my RISCV Task 2 repository! Here, I showcase my setup by compiling, running, and dissecting several RISCV programs on my own machine — proving that my RISCV toolchain and Spike simulator are up and running perfectly.
+This task showcases my setup by compiling, running, and dissecting several RISCV programs — proving that my RISCV toolchain and Spike simulator are up and running perfectly.
 
 ---
 
