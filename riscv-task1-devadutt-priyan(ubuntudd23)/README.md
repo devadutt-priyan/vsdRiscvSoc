@@ -138,6 +138,51 @@ which pk
 A simple C program was compiled using riscv64-unknown-elf-gcc and run using spike pk to validate the setup.
 Check the unique_test folder in this repo for source code, compile command and output.
 
+## Compile command
+```bash
+riscv64-unknown-elf-gcc -O2 -Wall -march=rv64imac -mabi=lp64 -DUSERNAME=\"$(id -un)\" -DHOSTNAME=\"$(hostname -s)\" unique_test.c -o unique_test
+```
+
+## Spike command
+```bash
+spike pk ./unique_test
+```
+
+## Output 
+```bash
+bbl loader
+RISC-V Uniqueness Check
+User: ubuntudd23
+Host: DESKTOP-QQD7BQL
+UniqueID: 0xec778770b2d32b1c
+GCC_VLEN: 5
+```
+
+---
+
+## Toolchain Proof 
+```bash
+$ which riscv64-uknown-elf-gcc
+/home/ubuntudd23/riscv_toolchain/riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-linux-ubuntu14/bin/riscv64-unknown-elf-gcc
+
+$ which spike
+/home/ubuntudd23/riscv_toolchain/install/bin/spike
+
+$ which pk
+/home/ubuntudd23/riscv_toolchain/install/bin/pk
+```
+
+---
+
+## Version
+```bash
+$ riscv64-unknown-elf-gcc -v
+gcc version 8.3.0 (SiFive GCC 8.3.0-2019.08.0)
+
+$ spike
+Spike RISC-V ISA Simulator 1.1.1-dev
+```
+
 ---
 
 ## Troubleshooting Notes
